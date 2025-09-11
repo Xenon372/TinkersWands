@@ -1,0 +1,11 @@
+{
+  "tool": "tinkers_wands:fluid_wand",
+  "text": [
+    { "text": "The Fluid Wand is a specialized staff designed for spitting fluids." }
+  ],
+  "properties": [
+    "3 Upgrade Slots",
+    "1 Ability Slots",
+    "Variable parts"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "tool": "tinkers_wands:fluid_wand",
+  "text": [
+    { "text": "Talk about a super soaker." }
+  ],
+  "properties": [
+    "Fires fluids stored in its tank",
+    "Decent accuracy and draw speed",
+    "Low velocity and damage"
+  ]
+}
