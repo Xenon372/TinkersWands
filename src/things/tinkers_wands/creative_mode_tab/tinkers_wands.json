@@ -1,0 +1,8 @@
+{
+  "icon": "tinkers_wands:fluid_wand",
+  "after": ["tconstruct:world"],
+  "translation_key": "itemGroup.tinkers_wands.tinkers_wands",
+  "items": [
+    "tinkers_wands:fluid_wand"
+  ]
+}
