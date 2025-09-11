@@ -1,0 +1,16 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "handle":    "tinkers_wands:item/tool/fluid_wand/handle_broken",
+    "guard":     "tinkers_wands:item/tool/fluid_wand/guard_broken",
+    "tank":        "tinkers_wands:item/tool/fluid_wand/tank_broken"
+  },
+  "large": false,
+  "modifier_roots": [ "tinkers_wands:item/tool/fluid_wand/modifiers/" ],
+  "parts": [
+    { "name": "handle",  "index": 0 },
+    { "name": "guard",   "index": 1 },
+    { "name": "tank" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "handle":    "tinkers_wands:item/tool/fluid_wand/handle",
+    "guard":     "tinkers_wands:item/tool/fluid_wand/guard",
+    "tank":        "tinkers_wands:item/tool/fluid_wand/tank"
+  },
+  "large": false,
+  "modifier_roots": [ "tinkers_wands:item/tool/fluid_wand/modifiers/" ],
+  "parts": [
+    { "name": "handle",  "index": 0 },
+    { "name": "guard",   "index": 1 },
+    { "name": "tank" }
+  ],
+    "first_modifiers": [{ "name": "tconstruct:tank", "forced": true }],
+    "overrides": [
+	{
+	  "predicate": { "tconstruct:charging": 2 },
+      "model": "tinkers_wands:item/fluid_wand/blocking"
+	},
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "tinkers_wands:item/fluid_wand/broken"
+    }
+  ]
+}

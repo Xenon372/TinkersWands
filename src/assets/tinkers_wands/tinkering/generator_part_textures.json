@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "parts": [
+    { "path": "tinkers_wands:item/tool/fluid_wand/handle",  "stat_type": "tconstruct:limb" },
+    { "path": "tinkers_wands:item/tool/fluid_wand/guard", "stat_type": "tconstruct:limb" } ]
+}
