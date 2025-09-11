@@ -1,7 +1,0 @@
-{
-  "type": "tconstruct:tool_building",
-  "extra_requirements": [
-    { "item": "tconstruct:seared_fluid_cannon" }
-  ],
-  "result": "tinkers_wands:fluid_wand"
-}
