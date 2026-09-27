@@ -1,5 +1,11 @@
 {
-  "icon": "tinkers_wands:fluid_wand",
+  "icon": {
+	"item": "tinkers_wands:fluid_wand",
+	"nbt": {
+	  "tic_display": true,
+	  "tic_materials": [ "tconstruct:ui_render#head", "tconstruct:ui_render#handle" ]
+	}
+  },
   "after": ["tconstruct:world"],
   "translation_key": "itemGroup.tinkers_wands.tinkers_wands",
   "items": [

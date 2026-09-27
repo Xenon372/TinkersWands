@@ -2,5 +2,6 @@
   "type": "tconstruct:tool",
   "break_blocks_in_creative": true,
   "max_stack_size": 1,
+  "group": "construct_arsenal:tinkers_wands",
   "color_handler": "tconstruct:tool"
 }
